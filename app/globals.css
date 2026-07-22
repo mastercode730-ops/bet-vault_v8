@@ -1,0 +1,141 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+
+:root {
+  --bg-dark: #080B11;
+  --card-dark: #101622;
+  --card-hover: #161F30;
+  --border-gold: rgba(255, 184, 0, 0.18);
+  --gold-primary: #FFB800;
+  --cyan-primary: #00F0FF;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Cyber Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0E17;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FFB800 0%, #D49000 100%);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFC933;
+}
+
+/* Glowing text and borders */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #FFF0B3 0%, #FFB800 50%, #E69500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #E0F7FF 0%, #00F0FF 60%, #00B8D9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cyber-glass-card {
+  background: rgba(16, 22, 34, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 184, 0, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cyber-glass-card:hover {
+  border-color: rgba(255, 184, 0, 0.35);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(255, 184, 0, 0.08), 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cyber-glass-nav {
+  background: rgba(8, 11, 17, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 184, 0, 0.15);
+}
+
+.btn-cyber-gold {
+  background: linear-gradient(135deg, #FFC72C 0%, #FFB800 50%, #D49500 100%);
+  color: #0A0E17;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(255, 184, 0, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-cyber-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(255, 184, 0, 0.55);
+}
+
+.btn-cyber-outline {
+  border: 1px solid rgba(255, 184, 0, 0.4);
+  color: #FFB800;
+  background: rgba(255, 184, 0, 0.05);
+  transition: all 0.25s ease;
+}
+
+.btn-cyber-outline:hover {
+  background: rgba(255, 184, 0, 0.15);
+  border-color: #FFB800;
+  color: #FFF;
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp-glow {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: all 0.25s ease;
+}
+
+.btn-whatsapp-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(37, 211, 102, 0.6);
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(255, 184, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 184, 0, 0.5);
+  }
+}
+
+.animate-gold-pulse {
+  animation: pulseGlow 2.5s infinite;
+}
+
+/* Background Cyber Grid */
+.cyber-bg-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
