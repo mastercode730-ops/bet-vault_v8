@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvault.in'),
   title: "Bet Vault v8 | Premium Cyber Betting & Instant Exchange ID Platform",
   description: "Get verified online sports betting IDs for Cricket IPL, Football, and Tennis within 3 minutes. Instant UPI withdrawals, 24/7 human support, and live exchange odds.",
   keywords: "Bet Vault v8, online betting ID, cricket betting ID, IPL odds, Diamond exchange ID, SkyExchange ID, instant withdrawal betting",

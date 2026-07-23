@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 import { Shield, Zap, HeartHandshake } from "lucide-react";
 
 export default function Footer() {
@@ -29,6 +29,7 @@ export default function Footer() {
             <p className="font-mono text-xs font-bold text-white uppercase tracking-wider">Navigation</p>
             <ul className="space-y-2">
               <li><Link href="/" className="hover:text-amber-400 transition-colors">Home Page</Link></li>
+              
               <li><Link href="/about" className="hover:text-amber-400 transition-colors">About Bet Vault</Link></li>
               <li><a href="/#markets" className="hover:text-amber-400 transition-colors">Live Sports Markets</a></li>
               <li><a href="/#calculator" className="hover:text-amber-400 transition-colors">Odds & Profit Calculator</a></li>
@@ -66,7 +67,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-mono text-slate-500">
           <p>© <span suppressHydrationWarning>{new Date().getFullYear()}</span> Bet Vault v8. All Rights Reserved.</p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap">
+            <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Sitemap</a>
+            <span>•</span>
+            <a href="/robots.txt" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Robots.txt</a>
+            <span>•</span>
             <span>256-Bit SSL Encrypted</span>
             <span>•</span>
             <span>24/7 WhatsApp Support</span>
