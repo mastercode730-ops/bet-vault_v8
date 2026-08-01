@@ -3,8 +3,8 @@ import { getWhatsAppLink } from "@/lib/whatsapp";
 import { ShieldCheck, Users, Trophy, Zap, Clock, Lock, CheckCircle2, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Bet Vault v8 - Our Story & Security Guarantee",
-  description: "Learn how Bet Vault v8 became India's most trusted online sports betting ID service. Built by real sports fans, backed by 100% payout guarantees.",
+  title: "About Us | BetVault - Our Story & Security Guarantee",
+  description: "Learn how BetVault became India's most trusted online sports betting ID service. Built by real sports fans, backed by 100% payout guarantees.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono font-bold">
           <ShieldCheck className="w-4 h-4 text-amber-400" />
-          <span>INSIDE BET VAULT v8</span>
+          <span>INSIDE BetVault</span>
         </div>
 
         <h1 className="font-display font-extrabold text-4xl sm:text-5xl text-white tracking-tight leading-tight">
@@ -26,7 +26,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto font-normal">
-          We didn't build Bet Vault v8 to be just another generic bookmaker website. We built it because we were tired of delay excuses, hidden withdrawal cuts, and unreachable admins right when a match hits peak drama.
+          We didn't build BetVault to be just another generic bookmaker website. We built it because we were tired of delay excuses, hidden withdrawal cuts, and unreachable admins right when a match hits peak drama.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              That was the birth of Bet Vault. We established direct master accounts with major liquidity exchanges like Diamond Exchange and SkyExchange. We instituted a strict 5-minute withdrawal rule, set up shift-based human support on WhatsApp, and guaranteed 100% payout liquidity. Fast forward to 2026, and Bet Vault v8 now serves over 50,000 active punters across India and South Asia.
+              That was the birth of Bet Vault. We established direct master accounts with major liquidity exchanges like Diamond Exchange and SkyExchange. We instituted a strict 5-minute withdrawal rule, set up shift-based human support on WhatsApp, and guaranteed 100% payout liquidity. Fast forward to 2026, and BetVault now serves over 50,000 active punters across India and South Asia.
             </p>
           </div>
 
@@ -135,7 +135,7 @@ export default function AboutPage() {
       {/* CTA Box */}
       <div className="max-w-3xl mx-auto text-center space-y-6 p-10 rounded-2xl cyber-glass-card">
         <h3 className="font-display font-extrabold text-2xl text-white">
-          Ready to Experience Bet Vault v8 Firsthand?
+          Ready to Experience BetVault Firsthand?
         </h3>
         <p className="text-xs text-slate-300 max-w-lg mx-auto">
           Start with a ₹500 test deposit. Experience our setup speed and request a small withdrawal anytime to verify our processing.

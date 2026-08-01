@@ -7,7 +7,7 @@ import { Shield, Zap, Menu, X, MessageSquare, Flame } from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const waLink = getWhatsAppLink("Hey Bet Vault v8, I want to create my betting ID.");
+  const waLink = getWhatsAppLink("Hey BetVault, I want to create my betting ID.");
 
   return (
     <header className="sticky top-0 z-50 cyber-glass-nav py-3.5 px-4 sm:px-6">

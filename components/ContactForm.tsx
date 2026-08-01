@@ -15,7 +15,7 @@ export default function ContactForm() {
     if (!name || !message) return;
     
     // Format text for WhatsApp direct redirect
-    const formattedMsg = `Hi Bet Vault v8 Support!\nName: ${name}\nPhone: ${phoneNum}\nMessage: ${message}`;
+    const formattedMsg = `Hi BetVault Support!\nName: ${name}\nPhone: ${phoneNum}\nMessage: ${message}`;
     const targetUrl = getWhatsAppLink(formattedMsg);
     
     setSubmitted(true);
@@ -24,7 +24,7 @@ export default function ContactForm() {
     }, 600);
   };
 
-  const directWaLink = getWhatsAppLink("Hi Bet Vault v8, I need urgent support with my ID.");
+  const directWaLink = getWhatsAppLink("Hi BetVault, I need urgent support with my ID.");
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">

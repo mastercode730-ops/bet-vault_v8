@@ -14,11 +14,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = BLOG_POSTS.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: "Post Not Found | Bet Vault v8" };
+    return { title: "Post Not Found | BetVault" };
   }
 
   return {
-    title: `${post.title} | Bet Vault v8 Blog`,
+    title: `${post.title} | BetVault Blog`,
     description: post.excerpt,
   };
 }

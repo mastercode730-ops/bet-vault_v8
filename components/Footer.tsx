@@ -20,7 +20,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              Bet Vault v8 is the premier cyber sports betting & exchange platform. Delivering verified betting IDs, 3-minute setup, 100% instant UPI payouts, and round-the-clock human concierge services.
+              BetVault is the premier cyber sports betting & exchange platform. Delivering verified betting IDs, 3-minute setup, 100% instant UPI payouts, and round-the-clock human concierge services.
             </p>
           </div>
 
@@ -60,13 +60,13 @@ export default function Footer() {
           <HeartHandshake className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
           <div>
             <span className="font-bold text-slate-200">Responsible Gaming Notice: </span>
-            Online sports betting involves financial risk. Please bet responsibly and within your personal financial limits. Bet Vault v8 strictly requires players to be 18 years or older. If you or someone you know is experiencing gaming problems, please seek assistance from local support resources.
+            Online sports betting involves financial risk. Please bet responsibly and within your personal financial limits. BetVault strictly requires players to be 18 years or older. If you or someone you know is experiencing gaming problems, please seek assistance from local support resources.
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-mono text-slate-500">
-          <p>© <span suppressHydrationWarning>{new Date().getFullYear()}</span> Bet Vault v8. All Rights Reserved.</p>
+          <p>© <span suppressHydrationWarning>{new Date().getFullYear()}</span> BetVault. All Rights Reserved.</p>
           <div className="flex items-center gap-4 flex-wrap">
             <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Sitemap</a>
             <span>•</span>

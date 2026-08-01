@@ -9,7 +9,7 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      q: "How do I create my online betting ID on Bet Vault v8?",
+      q: "How do I create my online betting ID on BetVault?",
       a: "It takes less than 3 minutes. Click any WhatsApp button on this site, select your preferred sport (like IPL Cricket or Football) and initial balance, and send us a message. Our team immediately creates your secure login credentials on your chosen exchange dashboard (Diamond, Sky, or Lotus365)."
     },
     {

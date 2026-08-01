@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvaultonlineid.com'),
-  title: "Bet Vault v8 | Premium Cyber Betting & Instant Exchange ID Platform",
+  title: "BetVault | Online Cricket Betting, Sports Betting & Casino",
   description: "Get verified online sports betting IDs for Cricket IPL, Football, and Tennis within 3 minutes. Instant UPI withdrawals, 24/7 human support, and live exchange odds.",
-  keywords: "Bet Vault v8, online betting ID, cricket betting ID, IPL odds, Diamond exchange ID, SkyExchange ID, instant withdrawal betting",
+  keywords: "BetVault, online betting ID, cricket betting ID, IPL odds, Diamond exchange ID, SkyExchange ID, instant withdrawal betting",
 };
 
 export default function RootLayout({

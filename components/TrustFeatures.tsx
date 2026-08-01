@@ -15,7 +15,7 @@ export default function TrustFeatures() {
           </div>
 
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">
-            Why 50,000+ Punters Trust Bet Vault v8
+            Why 50,000+ Punters Trust BetVault
           </h2>
 
           <p className="text-slate-300 text-base leading-relaxed">

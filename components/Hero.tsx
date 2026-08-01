@@ -9,7 +9,7 @@ export default function Hero() {
   const [selectedAmount, setSelectedAmount] = useState("₹1,000");
   const [selectedExchange, setSelectedExchange] = useState("Diamond Exchange");
 
-  const customMessage = `Hello Bet Vault v8! I'd like to get my betting ID setup.\nSport: ${selectedSport}\nInitial Deposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
+  const customMessage = `Hello BetVault! I'd like to get my betting ID setup.\nSport: ${selectedSport}\nInitial Deposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
   const whatsappUrl = getWhatsAppLink(customMessage);
 
   return (
@@ -26,7 +26,7 @@ export default function Hero() {
           
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>Bet Vault v8 — Verified Exchange Network</span>
+            <span>BetVault — Verified Exchange Network</span>
           </div>
 
           <h1 className="font-display font-extrabold text-3xl sm:text-5xl lg:text-6xl text-white leading-tight tracking-tight">

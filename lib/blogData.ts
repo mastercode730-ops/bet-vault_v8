@@ -37,7 +37,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "1. Test withdrawals with small amounts first. Before you deposit ₹50,000, start with ₹1,000. Request a payout of ₹500 right after. If it takes longer than 15 minutes without a valid reason, walk away.",
       "2. Look for direct 24/7 human support. If a platform relies purely on automated bots that send canned responses, you're going to get stuck when an urgent match dispute happens. Real exchanges have real admins handling transactions.",
       "3. Verify line stability during peak overs. Unreliable platforms lag or crash right when a match hits the final 2 overs because their servers can't handle high-volume bets. Make sure your exchange operates on dedicated high-speed servers like Diamond Exchange or SkyExchange.",
-      "At Bet Vault v8, we keep things simple: 100% payout guarantee, zero delay policy on valid accounts, and round-the-clock support directly on WhatsApp. Keep your betting smart, disciplined, and safe."
+      "At BetVault, we keep things simple: 100% payout guarantee, zero delay policy on valid accounts, and round-the-clock support directly on WhatsApp. Keep your betting smart, disciplined, and safe."
     ],
   },
   {
@@ -103,7 +103,7 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["UPI Withdrawals", "Payout Speed", "Bet Vault System"],
     content: [
       "We often get asked: 'How are you able to process UPI and IMPS payouts at 2 AM on a Sunday after a high-stakes match?'",
-      "The answer is simple: automation backed by dedicated liquidity accounts. Traditional manual bookies rely on single individuals who go to sleep after matches end. At Bet Vault v8, we run shift-based operations combined with instant bank API validation.",
+      "The answer is simple: automation backed by dedicated liquidity accounts. Traditional manual bookies rely on single individuals who go to sleep after matches end. At BetVault, we run shift-based operations combined with instant bank API validation.",
       "When you click 'Withdraw' or message our WhatsApp helpline, your account status is verified automatically in under 30 seconds. Once confirmed, your payout is queued to our priority IMPS/UPI gateway, sending funds directly to your verified bank account or UPI ID.",
       "No waiting until the next business morning. No excuses about banking holidays. When it's your money, you get it instantly."
     ],

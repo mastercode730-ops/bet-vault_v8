@@ -4,7 +4,7 @@ import { getWhatsAppLink } from "@/lib/whatsapp";
 import { MessageSquare } from "lucide-react";
 
 export default function WhatsAppFloat() {
-  const waLink = getWhatsAppLink("Hi Bet Vault v8, I need quick assistance with my ID.");
+  const waLink = getWhatsAppLink("Hi BetVault, I need quick assistance with my ID.");
 
   return (
     <a

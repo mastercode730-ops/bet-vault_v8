@@ -4,8 +4,8 @@ import FAQSection from "@/components/FAQSection";
 import { MessageSquare, PhoneCall, ShieldCheck, Mail, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Bet Vault v8 24/7 Human Helpline",
-  description: "Get in touch with the Bet Vault v8 support team. 24/7 WhatsApp direct connect for betting ID creation, deposits, and 5-minute withdrawals.",
+  title: "Contact Us | BetVault 24/7 Human Helpline",
+  description: "Get in touch with the BetVault support team. 24/7 WhatsApp direct connect for betting ID creation, deposits, and 5-minute withdrawals.",
 };
 
 export default function ContactPage() {
