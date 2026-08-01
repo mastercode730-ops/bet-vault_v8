@@ -1,3 +1,4 @@
+import PaymentSection from '@/components/PaymentSection';
 import Hero from "@/components/Hero";
 import Ticker from "@/components/Ticker";
 import Markets from "@/components/Markets";
@@ -11,6 +12,7 @@ export default function Home() {
     <div className="space-y-4">
       <Hero />
       <Ticker />
+      <PaymentSection />
       <Markets />
       <BetCalculator />
       <TrustFeatures />
